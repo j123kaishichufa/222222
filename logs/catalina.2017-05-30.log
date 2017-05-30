@@ -1,0 +1,190 @@
+May 30, 2017 9:43:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.78
+May 30, 2017 9:43:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 10 2017 15:02:19 UTC
+May 30, 2017 9:43:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.78.0
+May 30, 2017 9:43:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+May 30, 2017 9:43:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.8.0-52-generic
+May 30, 2017 9:43:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+May 30, 2017 9:43:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/local/src/jdk1.7.0_79/jre
+May 30, 2017 9:43:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_79-b15
+May 30, 2017 9:43:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+May 30, 2017 9:43:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /usr/local/src/apache-tomcat-7.0.78
+May 30, 2017 9:43:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /usr/local/src/apache-tomcat-7.0.78
+May 30, 2017 9:43:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/usr/local/src/apache-tomcat-7.0.78/conf/logging.properties
+May 30, 2017 9:43:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+May 30, 2017 9:43:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+May 30, 2017 9:43:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/usr/local/src/apache-tomcat-7.0.78/endorsed
+May 30, 2017 9:43:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/usr/local/src/apache-tomcat-7.0.78
+May 30, 2017 9:43:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/usr/local/src/apache-tomcat-7.0.78
+May 30, 2017 9:43:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/usr/local/src/apache-tomcat-7.0.78/temp
+May 30, 2017 9:43:04 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+May 30, 2017 9:43:04 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 30, 2017 9:43:04 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 30, 2017 9:43:04 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1437 ms
+May 30, 2017 9:43:04 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 30, 2017 9:43:04 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.78
+May 30, 2017 9:43:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/src/apache-tomcat-7.0.78/webapps/manager
+May 30, 2017 9:43:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/src/apache-tomcat-7.0.78/webapps/manager has finished in 984 ms
+May 30, 2017 9:43:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/src/apache-tomcat-7.0.78/webapps/ROOT
+May 30, 2017 9:43:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/src/apache-tomcat-7.0.78/webapps/ROOT has finished in 82 ms
+May 30, 2017 9:43:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/src/apache-tomcat-7.0.78/webapps/docs
+May 30, 2017 9:43:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/src/apache-tomcat-7.0.78/webapps/docs has finished in 114 ms
+May 30, 2017 9:43:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/src/apache-tomcat-7.0.78/webapps/examples
+May 30, 2017 9:43:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/src/apache-tomcat-7.0.78/webapps/examples has finished in 457 ms
+May 30, 2017 9:43:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/src/apache-tomcat-7.0.78/webapps/host-manager
+May 30, 2017 9:43:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/src/apache-tomcat-7.0.78/webapps/host-manager has finished in 152 ms
+May 30, 2017 9:43:06 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 30, 2017 9:43:06 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 30, 2017 9:43:06 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2007 ms
+May 30, 2017 10:35:48 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+May 30, 2017 10:35:48 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+May 30, 2017 10:35:48 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 30, 2017 10:35:48 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 30, 2017 10:35:48 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+May 30, 2017 10:35:48 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 30, 2017 10:35:49 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+May 30, 2017 10:35:49 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+May 30, 2017 10:45:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.78
+May 30, 2017 10:45:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 10 2017 15:02:19 UTC
+May 30, 2017 10:45:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.78.0
+May 30, 2017 10:45:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+May 30, 2017 10:45:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.8.0-52-generic
+May 30, 2017 10:45:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+May 30, 2017 10:45:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+May 30, 2017 10:45:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_131-8u131-b11-0ubuntu1.16.04.2-b11
+May 30, 2017 10:45:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+May 30, 2017 10:45:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /mnt/share_vm/gitrepo/apache-tomcat-7.0.78
+May 30, 2017 10:45:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /mnt/share_vm/gitrepo/apache-tomcat-7.0.78
+May 30, 2017 10:45:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/mnt/share_vm/gitrepo/apache-tomcat-7.0.78/conf/logging.properties
+May 30, 2017 10:45:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+May 30, 2017 10:45:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+May 30, 2017 10:45:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/mnt/share_vm/gitrepo/apache-tomcat-7.0.78/endorsed
+May 30, 2017 10:45:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/mnt/share_vm/gitrepo/apache-tomcat-7.0.78
+May 30, 2017 10:45:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/mnt/share_vm/gitrepo/apache-tomcat-7.0.78
+May 30, 2017 10:45:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/mnt/share_vm/gitrepo/apache-tomcat-7.0.78/temp
+May 30, 2017 10:45:42 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+May 30, 2017 10:45:42 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 30, 2017 10:45:42 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 30, 2017 10:45:42 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1995 ms
+May 30, 2017 10:45:42 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 30, 2017 10:45:42 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.78
+May 30, 2017 10:45:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /mnt/share_vm/gitrepo/apache-tomcat-7.0.78/webapps/docs
+May 30, 2017 10:45:46 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 30, 2017 10:45:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /mnt/share_vm/gitrepo/apache-tomcat-7.0.78/webapps/docs has finished in 4,462 ms
+May 30, 2017 10:45:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /mnt/share_vm/gitrepo/apache-tomcat-7.0.78/webapps/examples
+May 30, 2017 10:45:56 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 30, 2017 10:45:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /mnt/share_vm/gitrepo/apache-tomcat-7.0.78/webapps/examples has finished in 9,285 ms
+May 30, 2017 10:45:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /mnt/share_vm/gitrepo/apache-tomcat-7.0.78/webapps/host-manager
+May 30, 2017 10:45:58 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 30, 2017 10:45:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /mnt/share_vm/gitrepo/apache-tomcat-7.0.78/webapps/host-manager has finished in 1,660 ms
+May 30, 2017 10:45:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /mnt/share_vm/gitrepo/apache-tomcat-7.0.78/webapps/manager
+May 30, 2017 10:46:04 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 30, 2017 10:46:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /mnt/share_vm/gitrepo/apache-tomcat-7.0.78/webapps/manager has finished in 6,806 ms
+May 30, 2017 10:46:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /mnt/share_vm/gitrepo/apache-tomcat-7.0.78/webapps/ROOT
+May 30, 2017 10:46:09 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 30, 2017 10:46:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /mnt/share_vm/gitrepo/apache-tomcat-7.0.78/webapps/ROOT has finished in 4,456 ms
+May 30, 2017 10:46:09 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 30, 2017 10:46:09 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 30, 2017 10:46:09 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 27031 ms
+May 30, 2017 10:46:44 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+May 30, 2017 10:46:44 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+May 30, 2017 10:46:44 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 30, 2017 10:46:44 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 30, 2017 10:46:44 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+May 30, 2017 10:46:44 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 30, 2017 10:46:44 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+May 30, 2017 10:46:44 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
