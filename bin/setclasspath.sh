@@ -85,7 +85,9 @@ fi
 
 # Set standard commands for invoking Java, if not already set.
 if [ -z "$_RUNJAVA" ]; then
-  _RUNJAVA="$JRE_HOME"/bin/java
+  #_RUNJAVA="$JRE_HOME"/bin/java
+  cp "$JAVA_HOME/bin/java" "$JAVA_HOME/bin/java_jwxtomcat"
+  _RUNJAVA="$JRE_HOME/bin/java_jwxtomcat"
 fi
 if [ "$os400" != "true" ]; then
   if [ -z "$_RUNJDB" ]; then
