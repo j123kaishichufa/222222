@@ -2,9 +2,11 @@
 <aspectj>
   <weaver options="">
     <!-- Example instrumentation for the myBatis JPetStore -->
-	<include within="*.*"/>
+	<!--include within="*.*"/-->
     <!--include within="net.jforum..*"/ -->
+	
 	<include within="org.mybatis.jpetstore..*"/>
+	<exclude within="org.mybatis.jpetstore.web.actions.AbstractActionBean" />
   </weaver>
   <aspects>
     <!-- Use the aspect directives to specify the aspect(s) to use (typically only one). -->
