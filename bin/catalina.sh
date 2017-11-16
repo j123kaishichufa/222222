@@ -106,6 +106,7 @@
 
 # OS specific support.  $var _must_ be set to either true or false.
 cygwin=false
+JAVA_OPTS="-Xms512m -Xmx1024m -Xss2048K -XX:PermSize=256m -XX:MaxPermSize=512m"
 darwin=false
 os400=false
 hpux=false

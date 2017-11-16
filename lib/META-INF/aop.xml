@@ -1,12 +1,14 @@
 <!DOCTYPE aspectj PUBLIC "-//AspectJ//DTD//EN" "http://www.aspectj.org/dtd/aspectj_1_5_0.dtd">
 <aspectj>
   <weaver options="">
-    <!-- Example instrumentation for the myBatis JPetStore -->
-	<!--include within="*.*"/-->
-    <!--include within="net.jforum..*"/ -->
-	
-	<include within="org.mybatis.jpetstore..*"/>
-	<exclude within="org.mybatis.jpetstore.web.actions.AbstractActionBean" />
+    <!-- instrumentation for the myBatis JPetStore and jforum219
+    <include within="net.jforum..*"/>
+    <include within="org.mybatis.jpetstore..*"/>
+    <exclude within="org.mybatis.jpetstore.web.actions.AbstractActionBean" />
+    -->
+
+    <!--include within="org.openmrs..*"/-->
+    <include within="org.apache.roller..*" />
   </weaver>
   <aspects>
     <!-- Use the aspect directives to specify the aspect(s) to use (typically only one). -->
